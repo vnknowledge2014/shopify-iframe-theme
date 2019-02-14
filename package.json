@@ -5,7 +5,6 @@
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "react-portal-frame": "^1.0.6",
     "react-scripts": "2.1.5",
     "styled-components": "^4.1.3"
   },

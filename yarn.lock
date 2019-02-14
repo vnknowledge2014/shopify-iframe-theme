@@ -7962,11 +7962,6 @@ react-is@^16.6.0, react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.1.tgz#a80141e246eb894824fb4f2901c0c50ef31d4cdb"
   integrity sha512-ioMCzVDWvCvKD8eeT+iukyWrBGrA3DiFYkXfBsVYIRdaREZuBjENG+KjrikavCLasozqRWTwFUagU/O4vPpRMA==
 
-react-portal-frame@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/react-portal-frame/-/react-portal-frame-1.0.6.tgz#475311aca8122b8a50c4b9a093ac1c0cfae1fde4"
-  integrity sha1-R1MRrKgSK4pQxLmgk6wcDPrh/eQ=
-
 react-scripts@2.1.5:
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/react-scripts/-/react-scripts-2.1.5.tgz#0740507db0a06d518c231caa1ef4e908bd8ebce5"
