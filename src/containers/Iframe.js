@@ -153,10 +153,4 @@ IFrame.propTypes = {
   children: PropTypes.oneOfType([PropTypes.func, PropTypes.node])
 };
 
-IFrame.childContextTypes = {
-  frame: PropTypes.any,
-  window: PropTypes.any,
-  document: PropTypes.any
-}
-
 export default IFrame;
