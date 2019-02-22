@@ -1,13 +1,8 @@
 import React, { useState, useRef } from "react";
-import PortalFrame from './containers/IFrame'
+import PortalFrame from './containers/Iframe'
 const App = () => {
   const refWrapper  = useRef(null)
   const [element, setElement] = useState(null); 
-
-  // const [customStyle, setCustomStyle] = useState({
-  //   background: '',
-  //   color: ''
-  // });
 
   const handleInsertElement = () => {
     const domButton = document.createElement('button')
