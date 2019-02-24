@@ -4,11 +4,6 @@ const App = () => {
   const refWrapper  = useRef(null)
   const [element, setElement] = useState(null); 
 
-  // const [customStyle, setCustomStyle] = useState({
-  //   background: '',
-  //   color: ''
-  // });
-
   const handleInsertElement = () => {
     const domButton = document.createElement('button')
     domButton.innerText = '+'
