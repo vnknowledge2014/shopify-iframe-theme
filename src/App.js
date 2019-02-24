@@ -1,5 +1,5 @@
 import React, { useState, useRef } from "react";
-import PortalFrame from './containers/IFrame'
+import PortalFrame from './containers/Iframe'
 const App = () => {
   const refWrapper  = useRef(null)
   const [element, setElement] = useState(null); 
