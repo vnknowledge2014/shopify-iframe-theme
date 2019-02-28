@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext, useRef } from "react";
 import { StyleSheetManager } from "styled-components";
 import PropTypes from "prop-types";
-import ReactDOM from 'react-dom';
+import ReactDOM from "react-dom";
 
 const noop = () => {};
 const EVENTS = [
@@ -96,11 +96,10 @@ const IFrame = props => {
   });
 
   const handleLoad = () => {
-    console.log(frame.current.contentDocument.querySelector("html"));
     setRoot(frame.current.contentDocument.querySelector("html"));
     frame.current.contentDocument.body.remove();
     setLoaded(true);
-    
+
     if (frameDidLoad) {
       frameDidLoad();
     }
